@@ -1,23 +1,32 @@
-//var: supports hoisting: call a variable before declaration 
-//let: does not support hoisting:you cannot call a variable
-// before it has bee declared
-//const: you can not declare without initializing, you
-// cannot reasign
 
-//var
-  console.log( username );  //example of a declaration
-  var username = "Amogelang";
-  username = "Amo"
-  console.log( username );
+// data types: 
+//premitive data types: it comes with the language itself
+//non-primitive: up to the programmer to decide
 
-//let 
-  console.log( age );  //this is not allowed
-  let age = 22;
-  age = 35
-  console.log( age );
+//primitive data types: String, Number, Booleans, Undefined,Non
+//non-primitive: Array, Object,Links
 
-//const
-  const surname = "Tsie";
-  surname = "Khoza" //(you are not allowed to have both(reassigning))
-  console.log( surname );
+//Primitive:
 
+let username = "Amogelang"; //this is a string in double or single qoutation
+let age = 33; // this is number data type
+let isFacilitator = true; //Boolean its eother true or false
+let isInPrison; // this is an empty string
+let surname = null //undefined value
+
+console.log(username, age, isFacilitator, isInPrison, surname)
+
+//Non-primitive
+//Array of students
+let listOFStudents = []
+console.log( listOFStudents );
+console.log( listOFStudents.length ); //this would be an example of an empty array
+
+//object 0f students 
+let student = {
+   name: "Amo",
+   surname: "Tsie",
+  age: 33,
+}
+
+console.log( students );
