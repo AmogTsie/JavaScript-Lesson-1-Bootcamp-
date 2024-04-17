@@ -1,32 +1,44 @@
+//Intro to operators:
+//mathematical opperators (division(/), subtraction(-), addition(+),multiplication(*))
 
-// data types: 
-//premitive data types: it comes with the language itself
-//non-primitive: up to the programmer to decide
+//string concatenator
+console.log("hi there" +  "my name is Amo");
 
-//primitive data types: String, Number, Booleans, Undefined,Non
-//non-primitive: Array, Object,Links
+//number addition
+console.log( 3+5);
 
-//Primitive:
+//conversion: explicit conversion ny the user
+//coercion: by the language itself(JavaScript)
 
-let username = "Amogelang"; //this is a string in double or single qoutation
-let age = 33; // this is number data type
-let isFacilitator = true; //Boolean its eother true or false
-let isInPrison; // this is an empty string
-let surname = null //undefined value
+console.log(String(3) + String(5));
 
-console.log(username, age, isFacilitator, isInPrison, surname)
+//direct conversions:
+console.log("5" + "9");
+console.log(Number("5") + Number("9"));
 
-//Non-primitive
-//Array of students
-let listOFStudents = []
-console.log( listOFStudents );
-console.log( listOFStudents.length ); //this would be an example of an empty array
+//implicit converison:
+console.log( 5 + 10 + "4");
 
-//object 0f students 
-let student = {
-   name: "Amo",
-   surname: "Tsie",
-  age: 33,
+//subtract
+let firstNumber = 100;
+let secondNumber = 50;
+
+console.log(firstNumber - secondNumber);
+
+//division
+console.log( firstNumber/ secondNumber);
+
+//multiplicaion
+console.log(firstNumber * secondNumber);
+
+//logical opperators (&&, ||, ==, ===, !==):
+
+//if statements: comtrols how opperation is running
+
+if(5 === 5) {
+   console.log(true);
+}
+else{
+   console.log(false);
 }
 
-console.log( students );
